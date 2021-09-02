@@ -5,7 +5,7 @@ import matter from 'gray-matter';
 
 async function generate() {
   const feed = new RSS({
-    title: 'Lee Robinson',
+    title: 'Anh Pham',
     site_url: 'https://leerob.io',
     feed_url: 'https://leerob.io/feed.xml'
   });

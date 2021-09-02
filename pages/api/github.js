@@ -1,7 +1,7 @@
 export default async function handler(_, res) {
-  const userResponse = await fetch('https://api.github.com/users/leerob');
+  const userResponse = await fetch('https://api.github.com/users/anhanh');
   const userReposResponse = await fetch(
-    'https://api.github.com/users/leerob/repos?per_page=100'
+    'https://api.github.com/users/anhanh/repos?per_page=100'
   );
 
   const user = await userResponse.json();
@@ -11,7 +11,6 @@ export default async function handler(_, res) {
   const stars = mine.reduce((accumulator, repository) => {
     return accumulator + repository['stargazers_count'];
   }, 0);
-
   res.setHeader(
     'Cache-Control',
     'public, s-maxage=1200, stale-while-revalidate=600'

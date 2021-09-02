@@ -123,15 +123,15 @@ const FullTimeline = () => (
       </Step>
     </ul>
     <Divider />
-    <Year>1998</Year>
+    <Year>2002</Year>
     <ul>
       <Step title="First Computer">
-        I remember many nights playing Age of Empires, Lego Island, and
-        Runescape.
+        I remember many nights playing Diablo, Warcraft, and Heroes of Might and
+        Magic.
       </Step>
     </ul>
     <Divider />
-    <Year>1997</Year>
+    <Year>1998</Year>
     <ul>
       <Step title="Became a Pokémon Master">
         Every time we'd go to Target, I would beg my mom to get a pack of
@@ -139,7 +139,7 @@ const FullTimeline = () => (
       </Step>
     </ul>
     <Divider />
-    <Year>1993</Year>
+    <Year>1987</Year>
     <ul>
       <Step title="Born 👶🏼🍼" />
     </ul>
@@ -156,17 +156,16 @@ export default function Timeline() {
       </h3>
       <Year>2021</Year>
       <ul>
-        <Step title="Head of Developer Relations at Vercel 👨‍👩‍👧‍👦">
+        <Step title="Became a Freelance Contractor 👨🏻‍💻">
           I'm extremely excited about this new role helping grow the Next.js and
           Vercel community.
         </Step>
-        <Step title="10,000 YouTube Subscribers 🎥">
+        <Step title="Started my blog">
           After many years on YouTube, I've started to figure this whole video
           thing out.
         </Step>
-        <Step title="5,000 Newsletter Subscribers 💌">
-          If you want to stay up-to-date on my latest work, it usually hits the
-          newsletter first. I try to send an update once a month.
+        <Step title="Started teaching Programming 💌">
+          I'm extremely excited about this new role helping grow
         </Step>
       </ul>
       <Divider />

@@ -2,20 +2,15 @@ import Image from 'next/image';
 import { parseISO, format } from 'date-fns';
 
 import Container from '@/components/Container';
-import Subscribe from '@/components/Subscribe';
 import ViewCounter from '@/components/ViewCounter';
 
 const editUrl = (slug) =>
-  `https://github.com/leerob/leerob.io/edit/main/data/blog/${slug}.mdx`;
-const discussUrl = (slug) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://leerob.io/blog/${slug}`
-  )}`;
+  `https://github.com/anhanh/Blog/edit/main/data/blog/${slug}.mdx`;
 
 export default function BlogLayout({ children, frontMatter }) {
   return (
     <Container
-      title={`${frontMatter.title} – Lee Robinson`}
+      title={`${frontMatter.title} – Anh Pham`}
       description={frontMatter.summary}
       image={`https://leerob.io${frontMatter.image}`}
       date={new Date(frontMatter.publishedAt).toISOString()}
@@ -28,7 +23,7 @@ export default function BlogLayout({ children, frontMatter }) {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2">
           <div className="flex items-center">
             <Image
-              alt="Lee Robinson"
+              alt="Anh Pham"
               height={24}
               width={24}
               src="/avatar.jpg"
@@ -36,7 +31,7 @@ export default function BlogLayout({ children, frontMatter }) {
             />
             <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">
               {frontMatter.by}
-              {'Lee Robinson / '}
+              {'Anh Pham / '}
               {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
             </p>
           </div>
@@ -49,18 +44,7 @@ export default function BlogLayout({ children, frontMatter }) {
         <div className="prose dark:prose-dark max-w-none w-full">
           {children}
         </div>
-        <div className="mt-8">
-          <Subscribe />
-        </div>
         <div className="text-sm text-gray-700 dark:text-gray-300">
-          <a
-            href={discussUrl(frontMatter.slug)}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {'Discuss on Twitter'}
-          </a>
-          {` • `}
           <a
             href={editUrl(frontMatter.slug)}
             target="_blank"
