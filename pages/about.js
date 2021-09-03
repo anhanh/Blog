@@ -20,6 +20,11 @@ export default function About() {
             and enjoying time with friends and family.
           </p>
         </div>
+        <iframe
+          src="https://www.google.com/maps/d/u/0/embed?mid=1eyEu-7cQLzejWXwZk9kRHujQv-NKPvdn"
+          width="640"
+          height="480"
+        ></iframe>
       </div>
     </Container>
   );
