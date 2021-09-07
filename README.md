@@ -8,7 +8,7 @@ My personal slice of the internet provides a platform for my writing and to show
 
 - `pages/api/*` - [API routes](https://nextjs.org/docs/api-routes/introduction) powering [`/dashboard`](https://tuananh.vercel.app/dashboard), and post views.
 - `pages/blog/*` - Static pre-rendered blog pages using [MDX](https://github.com/mdx-js/mdx).
-- `pages/dashboard` - [Personal dashboard](https://tuananh.vercel.app/dashboard) containing metrics like sales, views, and subscribers.
+- `pages/dashboard` - [Personal dashboard](https://tuananh.vercel.app/dashboard) containing metrics like youtube views, blog views, and github followers.
 - `pages/*` - All other static pages.
 
 ## Built Using

@@ -76,10 +76,7 @@ const FullTimeline = () => (
     <Divider />
     <Year>1994</Year>
     <ul>
-      <Step title="Became a Video Game Enthusiast">
-        Every time we'd go to Target, I would beg my mom to get a pack of
-        Pokémon cards. Sorry, mom.
-      </Step>
+      <Step title="Became a Video Game Enthusiast"></Step>
     </ul>
     <Divider />
     <Year>1987</Year>
@@ -103,10 +100,7 @@ export default function Timeline() {
           I'm extremely excited about this new role helping grow the Next.js and
           Vercel community.
         </Step>
-        <Step title="Started My Blog">
-          After many years on YouTube, I've started to figure this whole video
-          thing out.
-        </Step>
+        <Step title="Started my Blog"></Step>
         <Step title="Started Teaching Programming 💌">
           I taught mobile and web development for Passerelles numériques's
           students.
@@ -115,37 +109,12 @@ export default function Timeline() {
       <Divider />
       <Year>2020</Year>
       <ul>
-        <Step title="Joined ▲Vercel">
-          I'm excited to help grow the Next.js community and continue building
-          the optimal workflow for front-end developers.
-        </Step>
-        <Step title="Launched React 2025 💯">
-          Building a real SaaS application, from zero to production.
-        </Step>
-        <Step title="Emerging Technology Leader of the Year 🏆">
-          I was extremely honored to be one of five finalists nominated for this
-          award at the 2020 Prometheus Awards.
-        </Step>
-        <Step title="Got Married 🥳">
-          Great year for a wedding, huh? We had a small ceremony with family and
-          it was better than I could have imagined.
-        </Step>
-        <Step title="Became a Tech Lead 👨🏻‍💻">
-          Starting at the beginning of 2020, I moved into a tech leadership role
-          on an e-commerce development team at Hy-Vee.
-        </Step>
-        <Step title="Mastering Next.js made $10K 📈">
-          I taught hundreds of students from all over the world how to build web
-          applications. Exceeded my wildest expectations.
-        </Step>
+        <Step title="Started Exercising"></Step>
       </ul>
       <Divider />
       <Year>2019</Year>
       <ul>
-        <Step title="Moved back to Da Nang">
-          I spoke to over 100 technical recruiting leaders from across the
-          country at Talent42 in Seattle during a 45-minute keynote.
-        </Step>
+        <Step title="Moved back to Da Nang"></Step>
       </ul>
       {isShowingFullTimeline ? (
         <FullTimeline />
