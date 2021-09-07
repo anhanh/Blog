@@ -96,10 +96,7 @@ export default function Timeline() {
       </h3>
       <Year>2021</Year>
       <ul>
-        <Step title="Became a Freelance Contractor 👨🏻‍💻">
-          I'm extremely excited about this new role helping grow the Next.js and
-          Vercel community.
-        </Step>
+        <Step title="Became a Freelance Contractor 👨🏻‍💻"></Step>
         <Step title="Started my Blog"></Step>
         <Step title="Started Teaching Programming 💌">
           I taught mobile and web development for Passerelles numériques's
