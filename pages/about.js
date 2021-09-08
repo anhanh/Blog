@@ -5,6 +5,7 @@ import Container from '@/components/Container';
 export default function About() {
   return (
     <Container title="About – Anh Pham">
+      a
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           About Me
@@ -22,9 +23,9 @@ export default function About() {
         </div>
         <iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=1eyEu-7cQLzejWXwZk9kRHujQv-NKPvdn"
-          width="640"
-          height="480"
-        ></iframe>
+          width="100%"
+          height="280"
+        />
       </div>
     </Container>
   );

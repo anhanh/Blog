@@ -98,7 +98,7 @@ export default function Timeline() {
       <ul>
         <Step title="Became a Freelance Contractor 👨🏻‍💻"></Step>
         <Step title="Started my Blog"></Step>
-        <Step title="Started Teaching Programming 💌">
+        <Step title="Started Teaching Programming">
           I taught mobile and web development for Passerelles numériques's
           students.
         </Step>
