@@ -18,7 +18,7 @@ export default function Container(props) {
   const meta = {
     title: 'Anh Pham – Developer',
     description: `Mobile Developer`,
-    image: 'https://tuananh.vercel.app/static/images/banner.jpg',
+    image: 'https://anhphamtuan.com/static/images/banner.jpg',
     type: 'website',
     ...customMeta
   };
@@ -31,11 +31,11 @@ export default function Container(props) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://tuananh.vercel.app${router.asPath}`}
+          content={`https://anhphamtuan.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://tuananh.vercel.app${router.asPath}`}
+          href={`https://anhphamtuan.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Anh Pham" />
