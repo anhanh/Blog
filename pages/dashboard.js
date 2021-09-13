@@ -37,7 +37,7 @@ export default function Dashboard() {
           Curious what I'm currently jamming to? Here's my top tracks on Spotify
           updated daily.
         </p>
-        {/* <TopTracks /> */}
+        <TopTracks />
       </div>
     </Container>
   );

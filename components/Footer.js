@@ -36,11 +36,9 @@ export default function Footer() {
           <ExternalLink href="https://github.com/anhanh">GitHub</ExternalLink>
         </div>
         <div className="flex flex-col space-y-4">
-          <Link href="/guestbook">
-            <a className="text-gray-500 hover:text-gray-600 transition">
-              Guestbook
-            </a>
-          </Link>
+          <ExternalLink href="https://www.instagram.com/katorichibi/">
+            Instagram
+          </ExternalLink>
           <ExternalLink href="https://www.youtube.com/channel/UCu3g5hrNoS1MKZolBeXVzAw">
             YouTube
           </ExternalLink>
