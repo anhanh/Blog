@@ -96,8 +96,14 @@ export default function Timeline() {
       </h3>
       <Year>2021</Year>
       <ul>
-        <Step title="Became a Freelance Contractor 👨🏻‍💻"></Step>
-        <Step title="Started my Blog"></Step>
+        <Step title="Became a Freelance Contractor 👨🏻‍💻">
+          I'm extremely excited about this new role helping grow my
+          communication, management, and leadership skills.
+        </Step>
+        <Step title="Launched my Personal Blog">
+          Building a Next.js application to share my stories, software
+          development and tech careers.
+        </Step>
         <Step title="Started Teaching Programming">
           I taught mobile and web development for Passerelles numériques's
           students.
@@ -106,7 +112,9 @@ export default function Timeline() {
       <Divider />
       <Year>2020</Year>
       <ul>
-        <Step title="Started Exercising"></Step>
+        <Step title="Started Exercising">
+          Cycling, Running, Badminton, etc.
+        </Step>
       </ul>
       <Divider />
       <Year>2019</Year>
