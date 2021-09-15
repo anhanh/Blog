@@ -25,9 +25,9 @@ export default function Home() {
           Most Popular
         </h3>
         <BlogPost
-          title="Everything I Know About Style Guides, Design Systems, and Component Libraries"
-          summary="A deep-dive on everything I've learned in the past year building style guides, design systems, component libraries, and their best practices."
-          slug="style-guides-component-libraries-design-systems"
+          title="Past, Present, and Future of React State Management"
+          summary="Learn about the history of state management in React and what the preferred solutions are today."
+          slug="react-state-management"
         />
         <Timeline />
       </div>
