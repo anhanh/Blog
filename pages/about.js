@@ -16,9 +16,11 @@ export default function About() {
             mentor.
           </p>
           <p>
-            I grew up in Da Nang and went to live in Ho Chi Minh for ten years.
-            I spend my free time playing sports, reading books, watching Youtube
-            and enjoying time with friends and family.
+            I grew up in Da Nang and went to live in Ho Chi Minh for ten years
+            then moved back. I like all geeky things like reading and watching
+            sci-fi and fantasy, playing video games. Besides indoor activities,
+            I also like working out, triathlon training, being in nature,
+            trekking and other outdoorsy action.
           </p>
         </div>
         <iframe
